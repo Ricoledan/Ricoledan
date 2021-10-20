@@ -1,4 +1,4 @@
-### Hey I'm Ricardo 👋🏾
+### Yerrr! I'm Rico 👋🏾
 
 I'm a Full Stack Developer with a focus on Machine Learning & Artificial Intelligence. I build and design products using Node.js, Python, and Go in the conversational AI space. I like attacking challenging problems, and I love to learn new things. In my free time, I enjoy competing in Brazilian Jiu-Jitsu and Muay Thai. I'm an avid JRPG gamer and part-time farmer.
 
