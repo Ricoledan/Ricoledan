@@ -1,6 +1,6 @@
 ### Yerrr! I'm Rico 👋🏾
 
-I'm a Full-Stack Software Engineer specializing in integrating Blockchain with Artificial Intelligence. When I'm not driving innovation, I compete in Brazilian Jiu-Jitsu and Muay Thai and immerse myself in the rich narratives of JRPGs.
+💻 Full-Stack Software Engineer | 🌆 Blockchain & AI Specialist | 🥋 Brazilian Jiu-Jitsu & Muay Thai Competitor | 🎮 JRPG Enthusiast
 
 <div>
   <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ricoledan&theme=dark&show_icons=true" alt="Ricoledan" />
