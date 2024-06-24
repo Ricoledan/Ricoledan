@@ -1,6 +1,6 @@
 ### Yerrr! I'm Rico 👋🏾
 
-💻 Full-Stack Software Engineer | 🌆 Blockchain & AI Specialist | 🥋 BJJ/Muay Thai Competitor | 🎮 JRPG Enthusiast
+💻 Full-Stack Software Engineer | 🌆 Blockchain & ML/AI Specialist
 
 <div>
   <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ricoledan&theme=dark&show_icons=true" alt="Ricoledan" />
