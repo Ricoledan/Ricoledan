@@ -5,15 +5,18 @@ I'm a Full-Stack AI Engineer currently doing R&D @deloitte
 ## About Me
 
 ```rust
-const fn ricardo() -> (&'static str, &'static str, [&'static [&'static str]; 4]) {
+const fn ricardo() -> (&'static str, &'static str, [(&'static str, &'static [&'static str]); 7]) {
     (
         "Ricardo Ledan",
         "Full-Stack AI Engineer",
         [
-            &["Python", "PyTorch", "TensorFlow", "LangChain", "SageMaker", "RAG", "Vector DBs", "Qiskit"],
-            &["Node.js", "FastAPI", "TypeScript", "Kubernetes", "Docker", "AWS"],
-            &["Neo4j", "MongoDB", "PostgreSQL", "Snowflake", "ChromaDB", "Spark"],
-            &["Solidity", "Hyperledger Besu", "Smart Contracts"],
+            ("Core", &["Python", "TypeScript", "Rust", "SQL"]),
+            ("AI/ML", &["Multi-Agent Systems", "RAG", "PyTorch", "TensorFlow", "LangChain", "Qiskit"]),
+            ("Frontend", &["React", "Next.js", "Streamlit", "Tailwind"]),
+            ("Backend", &["REST", "GraphQL", "FastAPI", "Node.js"]),
+            ("Cloud/DevOps", &["AWS", "Docker", "Kubernetes", "Terraform"]),
+            ("Blockchain & Web3", &["Solidity", "Hardhat" , "Hyperledger Besu", "Web3.js", "Ethers.js"]),
+            ("Data & Storage", &["PostgreSQL", "MongoDB", "Neo4j", "ChromaDB", "Pinecone", "Snowflake"]),
         ]
     )
 }
