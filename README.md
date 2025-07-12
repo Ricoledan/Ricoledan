@@ -1,6 +1,6 @@
 # Yerrr! 👋🏾
 
-I'm a Full-Stack AI Engineer currently doing Research & Development @deloitte
+I'm a Full-Stack AI Engineer currently doing R&D @deloitte
 
 ## About Me
 
@@ -19,14 +19,12 @@ const fn ricardo() -> (&'static str, &'static str, [&'static [&'static str]; 4])
 }
 ```
 
-I take a complementary approach to building products by combining traditional product engineering with cutting-edge
-technologies. My work spans AI/ML systems, blockchain infrastructure, and currently exploring quantum computing. This
-interdisciplinary perspective allows me to create innovative solutions that bridge multiple domains and deliver
-real-world impact.
+I combine traditional engineering with cutting-edge tech. My work spans AI/ML systems, blockchain infrastructure, and
+quantum computing—creating solutions that bridge domains and deliver real impact.
 
 ## Current Focus
 
-- **Supervisor Multi-agent systems** - Architecting coordinated AI agents for complex task automation
+- **Supervisor Multi-agent Systems** - Architecting coordinated AI agents for complex task automation
 - **Self-hosted LLM infrastructure** - Building scalable, private AI deployment solutions
 - **Quantum Computing** - Exploring basics and implementation
 
