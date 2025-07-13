@@ -31,6 +31,11 @@ quantum computing—creating solutions that bridge domains and deliver real impa
 - **Self-hosted LLM infrastructure** - Building scalable, private AI deployment solutions
 - **Quantum Computing** - Exploring basics and implementation
 
+## Latest Substack Articles
+
+<!-- SUBSTACK:START -->
+<!-- SUBSTACK:END -->
+
 ## GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ricoledan&theme=dark&show_icons=true) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ricoledan&theme=dark&layout=compact)
