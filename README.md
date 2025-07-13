@@ -34,6 +34,8 @@ quantum computing—creating solutions that bridge domains and deliver real impa
 ## Latest Substack Articles
 
 <!-- SUBSTACK:START -->
+- [The AI Talent Wars: Meta's Strategic Play for Market Control](https://ricardoledan.substack.com/p/the-ai-talent-wars-metas-strategic) - Jun 29, 2025
+- [Building Multi-Agent Systems: A Supervisor Architecture Deep Dive](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - Jun 15, 2025
 <!-- SUBSTACK:END -->
 
 ## GitHub Stats

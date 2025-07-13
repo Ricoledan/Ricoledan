@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import os
+import sys
 import requests
 import xml.etree.ElementTree as ET
 import re
@@ -59,7 +61,12 @@ def fetch_substack_articles():
 def update_readme(articles):
     """Update README.md with latest articles"""
     try:
-        with open('README.md', 'r') as f:
+        readme_path = 'README.md'
+        if not os.path.exists(readme_path):
+            print(f"ERROR: {readme_path} not found")
+            return False
+            
+        with open(readme_path, 'r') as f:
             content = f.read()
         
         # Generate articles section
@@ -75,7 +82,7 @@ def update_readme(articles):
         
         new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
         
-        with open('README.md', 'w') as f:
+        with open(readme_path, 'w') as f:
             f.write(new_content)
         
         print(f"Updated README.md with {len(articles)} articles")
@@ -86,9 +93,18 @@ def update_readme(articles):
         return False
 
 if __name__ == "__main__":
+    print(f"Working directory: {os.getcwd()}")
+    print(f"Files in directory: {os.listdir('.')}")
+    
     articles = fetch_substack_articles()
     if articles:
-        update_readme(articles)
-        print("✅ Successfully updated Substack articles")
+        success = update_readme(articles)
+        if success:
+            print("✅ Successfully updated Substack articles")
+            sys.exit(0)
+        else:
+            print("❌ Failed to update README")
+            sys.exit(1)
     else:
         print("❌ No articles found or failed to fetch")
+        sys.exit(1)
