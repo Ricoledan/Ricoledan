@@ -1,6 +1,6 @@
 # Yerrr! 👋🏾
 
-My name is Ricardo and I'm a Full-Stack AI Engineer currently doing R&D @deloitte
+My name is Ricardo and I'm a Full-Stack AI Engineer currently doing R&D @deloitte.
 
 ## About Me
 
