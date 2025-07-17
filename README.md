@@ -27,7 +27,7 @@ fn main() {
                     "AI Systems & Retrieval",
                     &[
                         "Multi-Agent Architectures",
-                        "RAG Pipelines",
+                        "RAG",
                         "LangChain",
                         "Vector Search",
                         "ChromaDB",
