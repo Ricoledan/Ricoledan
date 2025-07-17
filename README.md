@@ -1,6 +1,9 @@
-# Yerrr! 👋🏾
+# Yerrr! I'm Ricardo 👋🏾
 
-My name is Ricardo and I'm a Full-Stack AI Engineer currently doing R&D @deloitte.
+Currently doing research and development @Deloitte.
+I design intelligent systems at the intersection of AI, blockchain, and quantum technologies.
+My work is rooted in systems thinking and driven by cross-domain innovation—transforming complex research into scalable,
+real-world solutions.
 
 ## About Me
 
@@ -81,9 +84,6 @@ fn main() {
     println!("{:?}", bio);
 }
 ```
-
-I combine traditional engineering with cutting-edge tech. My work spans AI/ML systems, blockchain infrastructure, and
-quantum computing—creating solutions that bridge domains and deliver real impact.
 
 ## Current Focus
 
