@@ -5,20 +5,32 @@ My name is Ricardo and I'm a Full-Stack AI Engineer currently doing R&D @deloitt
 ## About Me
 
 ```rust
-const fn ricardo() -> (&'static str, &'static str, [(&'static str, &'static [&'static str]); 7]) {
-    (
-        "Ricardo Ledan",
-        "Full-Stack AI Engineer",
-        [
-            ("Core", &["Python", "TypeScript", "Rust", "SQL"]),
-            ("AI/ML", &["Multi-Agent Systems", "RAG", "PyTorch", "TensorFlow", "LangChain", "Qiskit"]),
-            ("Frontend", &["React", "Next.js", "Streamlit", "Tailwind"]),
-            ("Backend", &["REST", "GraphQL", "FastAPI", "Node.js"]),
-            ("Cloud/DevOps", &["AWS", "Docker", "Kubernetes", "Terraform"]),
-            ("Blockchain & Web3", &["Solidity", "Hardhat" , "Hyperledger Besu", "Web3.js", "Ethers.js"]),
-            ("Data & Storage", &["PostgreSQL", "MongoDB", "Neo4j", "ChromaDB", "Pinecone", "Snowflake"]),
-        ]
-    )
+fn main() {
+    const fn ricardo() -> (
+        &'static str,
+        &'static str,
+        [(&'static str, &'static [&'static str]); 10],
+    ) {
+        (
+            "Ricardo Ledan",
+            "Full-Stack AI Engineer",
+            [
+                ("Core Engineering", &["Python", "Rust", "TypeScript", "SQL"]),
+                ("AI Systems & Retrieval", &["Multi-Agent Architectures", "RAG Pipelines", "LangChain", "Vector Search", "ChromaDB", "Pinecone"]),
+                ("Frontend Platforms", &["React", "Next.js", "TailwindCSS", "Streamlit"]),
+                ("API & Service Design", &["FastAPI", "Node.js", "GraphQL", "REST"]),
+                ("Cloud Infrastructure", &["AWS", "Docker", "Kubernetes", "Terraform", "Serverless"]),
+                ("Decentralized Systems", &["Solidity", "EVM", "Hyperledger", "Hardhat", "Web3.js"]),
+                ("Data Engineering", &["PostgreSQL", "MongoDB", "Snowflake", "Neo4j", "Data Modeling"]),
+                ("Systems Design", &["Event-Driven Architecture", "Microservices", "Serverless Design", "Scalability & Resilience"]),
+                ("Soft Skills", &["Technical Writing", "Team Leadership", "Cross-Functional Collaboration", "Mentorship", "Client Communication"]),
+                ("Personal Interests", &["Brazilian Jiu-Jitsu", "JRPGs", "Reading"]),
+            ]
+        )
+    }
+
+    let bio = ricardo();
+    println!("{:?}", bio);
 }
 ```
 
@@ -34,8 +46,12 @@ quantum computing—creating solutions that bridge domains and deliver real impa
 ## Latest Substack Articles
 
 <!-- SUBSTACK:START -->
-- [The AI Talent Wars: Meta's Strategic Play for Market Control](https://ricardoledan.substack.com/p/the-ai-talent-wars-metas-strategic) - Jun 29, 2025
-- [Building Multi-Agent Systems: A Supervisor Architecture Deep Dive](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - Jun 15, 2025
+
+- [The AI Talent Wars: Meta's Strategic Play for Market Control](https://ricardoledan.substack.com/p/the-ai-talent-wars-metas-strategic) -
+  Jun 29, 2025
+- [Building Multi-Agent Systems: A Supervisor Architecture Deep Dive](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) -
+  Jun 15, 2025
+
 <!-- SUBSTACK:END -->
 
 ## GitHub Stats
