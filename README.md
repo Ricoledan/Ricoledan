@@ -15,17 +15,65 @@ fn main() {
             "Ricardo Ledan",
             "Full-Stack AI Engineer",
             [
-                ("Core Engineering", &["Python", "Rust", "TypeScript", "SQL"]),
-                ("AI Systems & Retrieval", &["Multi-Agent Architectures", "RAG Pipelines", "LangChain", "Vector Search", "ChromaDB", "Pinecone"]),
-                ("Frontend Platforms", &["React", "Next.js", "TailwindCSS", "Streamlit"]),
-                ("API & Service Design", &["FastAPI", "Node.js", "GraphQL", "REST"]),
-                ("Cloud Infrastructure", &["AWS", "Docker", "Kubernetes", "Terraform", "Serverless"]),
-                ("Decentralized Systems", &["Solidity", "EVM", "Hyperledger", "Hardhat", "Web3.js"]),
-                ("Data Engineering", &["PostgreSQL", "MongoDB", "Snowflake", "Neo4j", "Data Modeling"]),
-                ("Systems Design", &["Event-Driven Architecture", "Microservices", "Serverless Design", "Scalability & Resilience"]),
-                ("Soft Skills", &["Technical Writing", "Team Leadership", "Cross-Functional Collaboration", "Mentorship", "Client Communication"]),
-                ("Personal Interests", &["Brazilian Jiu-Jitsu", "JRPGs", "Reading"]),
-            ]
+                (
+                    "Core Engineering",
+                    &["Python", "Rust", "TypeScript", "SQL"],
+                ),
+                (
+                    "AI Systems & Retrieval",
+                    &[
+                        "Multi-Agent Architectures",
+                        "RAG Pipelines",
+                        "LangChain",
+                        "Vector Search",
+                        "ChromaDB",
+                        "Pinecone",
+                    ],
+                ),
+                (
+                    "Frontend Platforms",
+                    &["React", "Next.js", "TailwindCSS", "Streamlit"],
+                ),
+                (
+                    "API & Service Design",
+                    &["FastAPI", "Node.js", "GraphQL", "REST"],
+                ),
+                (
+                    "Cloud Infrastructure",
+                    &["AWS", "Docker", "Kubernetes", "Terraform", "Serverless"],
+                ),
+                (
+                    "Decentralized Systems",
+                    &["Solidity", "EVM", "Hyperledger", "Hardhat", "Web3.js"],
+                ),
+                (
+                    "Data Engineering",
+                    &["PostgreSQL", "MongoDB", "Snowflake", "Neo4j", "Data Modeling"],
+                ),
+                (
+                    "Systems Design",
+                    &[
+                        "Event-Driven Architecture",
+                        "Microservices",
+                        "Serverless Design",
+                        "Scalability & Resilience",
+                    ],
+                ),
+                (
+                    "Soft Skills",
+                    &[
+                        "Technical Writing",
+                        "Team Leadership",
+                        "Cross-Functional Collaboration",
+                        "Mentorship",
+                        "Client Communication",
+                    ],
+                ),
+                (
+                    "Personal Interests",
+                    &["Brazilian Jiu-Jitsu", "JRPGs", "Reading"],
+                ),
+            ],
         )
     }
 
