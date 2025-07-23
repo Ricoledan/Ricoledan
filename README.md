@@ -8,82 +8,33 @@ real-world solutions.
 
 ## About Me
 
-```rust
-fn main() {
-    const fn ricardo() -> (
-        &'static str,
-        &'static str,
-        [(&'static str, &'static [&'static str]); 10],
-    ) {
-        (
-            "Ricardo Ledan",
-            "Full-Stack AI Engineer",
-            [
-                (
-                    "Core Engineering",
-                    &["Python", "Rust", "TypeScript", "SQL"],
-                ),
-                (
-                    "AI Systems & Retrieval",
-                    &[
-                        "Multi-Agent Architectures",
-                        "RAG",
-                        "LangChain",
-                        "Vector Search",
-                        "ChromaDB",
-                        "Pinecone",
-                    ],
-                ),
-                (
-                    "Frontend Platforms",
-                    &["React", "Next.js", "TailwindCSS", "Streamlit"],
-                ),
-                (
-                    "API & Service Design",
-                    &["FastAPI", "Node.js", "GraphQL", "REST"],
-                ),
-                (
-                    "Cloud Infrastructure",
-                    &["AWS", "Docker", "Kubernetes", "Terraform", "Serverless"],
-                ),
-                (
-                    "Decentralized Systems",
-                    &["Solidity", "EVM", "Hyperledger", "Hardhat", "Web3.js"],
-                ),
-                (
-                    "Data Engineering",
-                    &["PostgreSQL", "MongoDB", "Snowflake", "Neo4j", "Data Modeling"],
-                ),
-                (
-                    "Systems Design",
-                    &[
-                        "Event-Driven Architecture",
-                        "Microservices",
-                        "Serverless Design",
-                        "Scalability & Resilience",
-                    ],
-                ),
-                (
-                    "Soft Skills",
-                    &[
-                        "Technical Writing",
-                        "Team Leadership",
-                        "Cross-Functional Collaboration",
-                        "Mentorship",
-                        "Client Communication",
-                    ],
-                ),
-                (
-                    "Personal Interests",
-                    &["Brazilian Jiu-Jitsu", "JRPGs", "Reading"],
-                ),
-            ],
-        )
-    }
+```python
+@dataclass(frozen=True)
+class Profile:
+    name: str
+    title: str
+    skills: List[Tuple[str, List[str]]]
 
-    let bio = ricardo();
-    println!("{:?}", bio);
-}
+
+ricardo = Profile(
+    name="Ricardo Ledan",
+    title="Full-Stack AI Engineer",
+    skills=[
+        ("Core Engineering", ["Python", "Rust", "TypeScript", "SQL"]),
+        ("AI Systems & Retrieval",
+         ["Multi-Agent Architectures", "RAG", "LangChain", "Vector Search", "ChromaDB", "Pinecone"]),
+        ("Frontend Platforms", ["React", "Next.js", "TailwindCSS", "Streamlit"]),
+        ("API & Service Design", ["FastAPI", "Node.js", "GraphQL", "REST"]),
+        ("Cloud Infrastructure", ["AWS", "Docker", "Kubernetes", "Terraform", "Serverless"]),
+        ("Decentralized Systems", ["Solidity", "EVM", "Hyperledger", "Hardhat", "Web3.js"]),
+        ("Data Engineering", ["PostgreSQL", "MongoDB", "Snowflake", "Neo4j", "Data Modeling"]),
+        ("Systems Design",
+         ["Event-Driven Architecture", "Microservices", "Serverless Design", "Scalability & Resilience"]),
+        ("Soft Skills", ["Technical Writing", "Team Leadership", "Cross-Functional Collaboration", "Mentorship",
+                         "Client Communication"]),
+        ("Personal Interests", ["Brazilian Jiu-Jitsu", "JRPGs", "Reading"]),
+    ]
+)
 ```
 
 ## Current Focus
