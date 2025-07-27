@@ -9,7 +9,6 @@ real-world solutions.
 ## About Me
 
 ```python
-@dataclass(frozen=True)
 class Profile:
     name: str
     title: str
