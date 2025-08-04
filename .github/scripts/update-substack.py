@@ -4,7 +4,6 @@ import os
 import sys
 import json
 import requests
-import xml.etree.ElementTree as ET
 import re
 from datetime import datetime
 import time
@@ -40,27 +39,64 @@ def save_articles_cache(articles):
     except Exception as e:
         print(f"Could not save cache: {e}")
 
-def get_fallback_articles():
-    """Return empty list when RSS feed is unavailable"""
-    return []
-
-def fetch_substack_articles():
-    """Fetch articles from Substack RSS feed"""
-    
-    # First try to use cached articles if available
-    cached = load_cached_articles()
-    if cached:
-        return cached
-    
-    url = "https://ricardoledan.substack.com/feed"
-    
-    # Simple request attempt
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (compatible; GitHub Actions Bot)',
-        'Accept': 'application/rss+xml, application/xml, text/xml, */*'
-    }
-    
+def fetch_substack_api():
+    """Try to fetch from Substack's archive API endpoint"""
     try:
+        # Use the archive endpoint which is less protected
+        url = "https://ricardoledan.substack.com/api/v1/archive?sort=new&limit=5"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept': 'application/json'
+        }
+        
+        print(f"Attempting to fetch from Substack Archive API: {url}")
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        if response.status_code == 200:
+            data = response.json()
+            articles = []
+            
+            # The archive endpoint returns a list directly
+            for post in data[:5]:
+                # Format the date
+                post_date = post.get('post_date', '')
+                if post_date:
+                    try:
+                        date_obj = datetime.strptime(post_date.split('T')[0], "%Y-%m-%d")
+                        formatted_date = date_obj.strftime("%b %d, %Y")
+                    except:
+                        formatted_date = "Recent"
+                else:
+                    formatted_date = "Recent"
+                
+                articles.append({
+                    'title': post.get('title', 'Untitled'),
+                    'link': f"https://ricardoledan.substack.com/p/{post.get('slug', '')}",
+                    'date': formatted_date
+                })
+            
+            if articles:
+                print(f"Successfully fetched {len(articles)} articles from Archive API")
+                return articles
+        
+        print(f"API request failed with status {response.status_code}")
+        return None
+        
+    except Exception as e:
+        print(f"Error fetching from API: {e}")
+        return None
+
+def fetch_substack_rss():
+    """Try to fetch from RSS feed"""
+    try:
+        import xml.etree.ElementTree as ET
+        
+        url = "https://ricardoledan.substack.com/feed"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (compatible; GitHub Actions Bot)',
+            'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+        }
+        
         print(f"Attempting to fetch RSS feed from {url}")
         response = requests.get(url, headers=headers, timeout=10)
         
@@ -91,22 +127,42 @@ def fetch_substack_articles():
                     'date': formatted_date
                 })
             
-            print(f"Successfully fetched {len(articles)} articles")
-            save_articles_cache(articles)  # Save to cache for future use
+            print(f"Successfully fetched {len(articles)} articles from RSS")
             return articles
             
         elif response.status_code == 403:
-            print(f"Access blocked (403). This is expected with Cloudflare protection.")
-            print("No articles fetched - will use cache if available")
-            return []
+            print(f"RSS feed blocked (403). This is expected with Cloudflare protection.")
+            return None
         else:
-            print(f"Failed with status {response.status_code}")
-            return []
+            print(f"RSS request failed with status {response.status_code}")
+            return None
     
     except Exception as e:
         print(f"Error fetching RSS: {e}")
-        print("No articles fetched - will use cache if available")
-        return []
+        return None
+
+def fetch_substack_articles():
+    """Fetch articles from Substack using multiple methods"""
+    
+    # First try to use cached articles if available
+    cached = load_cached_articles()
+    if cached:
+        return cached
+    
+    # Try API endpoint first (less likely to be blocked)
+    articles = fetch_substack_api()
+    if articles:
+        save_articles_cache(articles)
+        return articles
+    
+    # Fallback to RSS feed
+    articles = fetch_substack_rss()
+    if articles:
+        save_articles_cache(articles)
+        return articles
+    
+    print("Could not fetch articles from any source")
+    return []
 
 def update_readme(articles):
     """Update README.md with latest articles"""
@@ -122,7 +178,11 @@ def update_readme(articles):
         # Generate articles section
         articles_md = []
         for article in articles:
-            articles_md.append(f"- [{article['title']}]({article['link']}) - {article['date']}")
+            # Clean up the title and ensure proper formatting
+            title = article['title'].strip()
+            link = article['link'].strip()
+            date = article['date'].strip()
+            articles_md.append(f"- [{title}]({link}) - {date}")
         
         articles_section = "\n".join(articles_md)
         
@@ -160,6 +220,6 @@ if __name__ == "__main__":
             # Exit with success to not block the workflow
             sys.exit(0)
     else:
-        print("⚠️ No articles available (RSS blocked and no cache), skipping update")
+        print("⚠️ No articles available, skipping update")
         # Exit with success to not block the workflow
         sys.exit(0)
