@@ -1,4 +1,20 @@
 {
-  "timestamp": 1753372800,
-  "articles": []
+  "timestamp": 1754279854.126742,
+  "articles": [
+    {
+      "title": "The AI Culture War: How Fighting \"Woke\" AI Undermines American Leadership While Poisoning Frontline Communities",
+      "link": "https://ricardoledan.substack.com/p/the-ai-culture-war-how-fighting-woke",
+      "date": "Jul 31, 2025"
+    },
+    {
+      "title": "The AI Talent Wars: Meta's Strategic Play for Market Control",
+      "link": "https://ricardoledan.substack.com/p/the-ai-talent-wars-metas-strategic",
+      "date": "Jun 29, 2025"
+    },
+    {
+      "title": "Building Multi-Agent Systems: A Supervisor Architecture Deep Dive",
+      "link": "https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor",
+      "date": "Jun 15, 2025"
+    }
+  ]
 }
