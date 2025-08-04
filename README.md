@@ -45,12 +45,9 @@ ricardo = Profile(
 ## Latest Substack Articles
 
 <!-- SUBSTACK:START -->
-
-- [The AI Talent Wars: Meta's Strategic Play for Market Control](https://ricardoledan.substack.com/p/the-ai-talent-wars-metas-strategic) -
-  Jun 29, 2025
-- [Building Multi-Agent Systems: A Supervisor Architecture Deep Dive](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) -
-  Jun 15, 2025
-
+- [The AI Culture War: How Fighting "Woke" AI Undermines American Leadership While Poisoning Frontline Communities](https://ricardoledan.substack.com/p/the-ai-culture-war-how-fighting-woke) - Jul 31, 2025
+- [The AI Talent Wars: Meta's Strategic Play for Market Control](https://ricardoledan.substack.com/p/the-ai-talent-wars-metas-strategic) - Jun 29, 2025
+- [Building Multi-Agent Systems: A Supervisor Architecture Deep Dive](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - Jun 15, 2025
 <!-- SUBSTACK:END -->
 
 ## GitHub Stats
