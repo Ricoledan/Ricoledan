@@ -9,31 +9,18 @@ real-world solutions.
 ## About Me
 
 ```python
-class Profile:
+class Ricardo:
     """Full-Stack AI Engineer | Multi-Agent Systems | Knowledge Graphs | Quantum Computing"""
     
-    expertise = {
-        "AI & Multi-Agent": ["LangGraph Supervisor Architecture", "Parallel Agent Orchestration",
-                             "AWS Bedrock", "RAG", "Graph RAG", "LangChain", 
-                             "Vector Search", "ChromaDB", "Pinecone", "Qdrant"],
-        "Graph & Data": ["Neo4j Knowledge Graphs", "Neo4j GDS", "Graph ML", 
-                        "MongoDB Atlas Vector Search", "PostgreSQL", "Snowflake"],
-        "Core Engineering": ["Python", "Rust", "TypeScript", "Solidity", "Go", "Java"],
-        "Infrastructure": ["AWS", "Kubernetes", "Docker", "Terraform", 
-                          "CUDA/ROCm", "Multi-GPU Systems"],
-        "Blockchain": ["Hyperledger Besu", "EVM", "Smart Contracts", "Hardhat", "Web3.js"],
-        "Quantum": ["IBM Qiskit Certified", "VQE/QAOA Algorithms", "127-qubit Hardware"],
-        "Real-Time Systems": ["WebSocket (Socket.io)", "Redis/Celery", "Event Streaming"],
-        "API Design": ["GraphQL", "FastAPI", "Node.js", "REST", "Microservices"]
+    stack = {
+        "AI": ["LangGraph Multi-Agent", "Graph RAG", "Vector Search", "AWS Bedrock"],
+        "Data": ["Neo4j + GDS", "MongoDB Atlas", "PostgreSQL", "Graph ML"],
+        "Languages": ["Python", "Rust", "TypeScript", "Solidity"],
+        "Infra": ["AWS", "Kubernetes", "Docker", "CUDA/ROCm"],
+        "Quantum": ["IBM Qiskit Certified", "VQE/QAOA", "127-qubit"]
     }
     
-    certifications = [
-        "Deloitte Advanced AI",
-        "IBM Quantum Excellence", 
-        "NVIDIA AI Supercomputer"
-    ]
-    
-    interests = ["Brazilian Jiu-Jitsu", "JRPGs", "Reading"]
+    certifications = ["Deloitte AI", "IBM Quantum", "NVIDIA Supercomputer"]
 ```
 
 ## Current Focus
