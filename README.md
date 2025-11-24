@@ -14,8 +14,9 @@ class Ricardo:
     
     stack = {
         "AI": ["LangGraph Multi-Agent", "Graph RAG", "Vector Search", "AWS Bedrock"],
-        "Data": ["Neo4j + GDS", "MongoDB Atlas", "PostgreSQL", "Graph ML"],
-        "Languages": ["Python", "Rust", "TypeScript", "Solidity"],
+        "Data": ["Neo4j + GDS", "MongoDB", "PostgreSQL", "Graph ML"],
+        "Languages": ["Python", "Rust", "Go", "TypeScript", "Solidity"],
+        "Blockchain": ["Hyperledger Besu", "Smart Contracts", "Web3", "EVM"],
         "Infra": ["AWS", "Kubernetes", "Docker", "CUDA/ROCm"],
         "Quantum": ["IBM Qiskit Certified", "VQE/QAOA", "127-qubit"]
     }
