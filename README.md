@@ -10,30 +10,30 @@ real-world solutions.
 
 ```python
 class Profile:
-    name: str
-    title: str
-    skills: List[Tuple[str, List[str]]]
-
-
-ricardo = Profile(
-    name="Ricardo Ledan",
-    title="Full-Stack AI Engineer",
-    skills=[
-        ("Core Engineering", ["Python", "Rust", "TypeScript", "SQL"]),
-        ("AI Systems & Retrieval",
-         ["Multi-Agent Architectures", "RAG", "LangChain", "Vector Search", "ChromaDB", "Pinecone"]),
-        ("Frontend Platforms", ["React", "Next.js", "TailwindCSS", "Streamlit"]),
-        ("API & Service Design", ["FastAPI", "Node.js", "GraphQL", "REST"]),
-        ("Cloud Infrastructure", ["AWS", "Docker", "Kubernetes", "Terraform", "Serverless"]),
-        ("Decentralized Systems", ["Solidity", "EVM", "Hyperledger", "Hardhat", "Web3.js"]),
-        ("Data Engineering", ["PostgreSQL", "MongoDB", "Snowflake", "Neo4j", "Data Modeling"]),
-        ("Systems Design",
-         ["Event-Driven Architecture", "Microservices", "Serverless Design", "Scalability & Resilience"]),
-        ("Soft Skills", ["Technical Writing", "Team Leadership", "Cross-Functional Collaboration", "Mentorship",
-                         "Client Communication"]),
-        ("Personal Interests", ["Brazilian Jiu-Jitsu", "JRPGs", "Reading"]),
+    """Full-Stack AI Engineer | Multi-Agent Systems | Knowledge Graphs | Quantum Computing"""
+    
+    expertise = {
+        "AI & Multi-Agent": ["LangGraph Supervisor Architecture", "Parallel Agent Orchestration",
+                             "AWS Bedrock", "RAG", "Graph RAG", "LangChain", 
+                             "Vector Search", "ChromaDB", "Pinecone", "Qdrant"],
+        "Graph & Data": ["Neo4j Knowledge Graphs", "Neo4j GDS", "Graph ML", 
+                        "MongoDB Atlas Vector Search", "PostgreSQL", "Snowflake"],
+        "Core Engineering": ["Python", "Rust", "TypeScript", "Solidity", "Go", "Java"],
+        "Infrastructure": ["AWS", "Kubernetes", "Docker", "Terraform", 
+                          "CUDA/ROCm", "Multi-GPU Systems"],
+        "Blockchain": ["Hyperledger Besu", "EVM", "Smart Contracts", "Hardhat", "Web3.js"],
+        "Quantum": ["IBM Qiskit Certified", "VQE/QAOA Algorithms", "127-qubit Hardware"],
+        "Real-Time Systems": ["WebSocket (Socket.io)", "Redis/Celery", "Event Streaming"],
+        "API Design": ["GraphQL", "FastAPI", "Node.js", "REST", "Microservices"]
+    }
+    
+    certifications = [
+        "Deloitte Advanced AI",
+        "IBM Quantum Excellence", 
+        "NVIDIA AI Supercomputer"
     ]
-)
+    
+    interests = ["Brazilian Jiu-Jitsu", "JRPGs", "Reading"]
 ```
 
 ## Current Focus
