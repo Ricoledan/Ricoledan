@@ -1,6 +1,6 @@
 # Yerrr! I'm Ricardo 👋🏾
 
-Currently doing research and development @Deloitte.
+Currently doing research and development.
 
 I design intelligent systems at the intersection of AI, blockchain, and quantum technologies.
 My work is rooted in systems thinking and driven by cross-domain innovation—transforming complex research into scalable,
@@ -36,10 +36,6 @@ class Ricardo:
 - [The AI Talent Wars: Meta's Strategic Play for Market Control](https://ricardoledan.substack.com/p/the-ai-talent-wars-metas-strategic) - Jun 29, 2025
 - [Building Multi-Agent Systems: A Supervisor Architecture Deep Dive](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - Jun 15, 2025
 <!-- SUBSTACK:END -->
-
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ricoledan&theme=dark&show_icons=true) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ricoledan&theme=dark&layout=compact)
 
 ## Connect
 
