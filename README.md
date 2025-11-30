@@ -1,7 +1,5 @@
 # Yerrr! I'm Ricardo 👋🏾
 
-Currently doing research and development.
-
 I design intelligent systems at the intersection of AI, blockchain, and quantum technologies.
 My work is rooted in systems thinking and driven by cross-domain innovation—transforming complex research into scalable,
 real-world solutions.
