@@ -36,10 +36,9 @@ class Ricardo:
 
 ## Featured Writing
 
+- [Navigate by Meaning](https://medium.com/@ricardoledan/navigate-by-meaning-5f12910b6955) - How semantic search cuts AI code assistant token usage by 67%
 - [Thinking In Human](https://smallthinkingmachines.substack.com/p/thinking-in-human) - Reclaiming comprehension in an age of AI-generated code
-- [The Art of LangSmithing](https://medium.com/better-programming/the-art-of-langsmithing-42dcd191a220) - Testing, evaluating, and monitoring LLM calls for production
 - [Building Multi-Agent Systems](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - A supervisor architecture deep dive with LangGraph
-- [Building Context-Aware QA Systems](https://medium.com/better-programming/building-context-aware-question-answering-systems-with-llms-b6f2b6e387ec) - Embeddings, vector search, and prompt engineering
 
 ## Connect
 
