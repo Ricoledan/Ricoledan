@@ -30,7 +30,7 @@ class Ricardo:
 
 ## Featured Projects
 
-- **[semantic-code-mcp](https://github.com/Ricoledan/semantic-code-mcp)** - MCP server for semantic code search using AST-aware chunking and vector embeddings
+- **[semantic-code-mcp](https://github.com/smallthinkingmachines/semantic-code-mcp)** - MCP server for semantic code search using AST-aware chunking and vector embeddings
 - **[supervisor-multi-agent-system](https://github.com/Ricoledan/supervisor-multi-agent-system)** - Multi-agent architecture with central supervisor and specialized workers
 - **[bmad-architecture-agent](https://github.com/Ricoledan/bmad-architecture-agent)** - Expert architect toolkit for the BMAD-METHOD framework
 
