@@ -24,13 +24,14 @@ class Ricardo:
 
 ## Current Focus
 
-- **Semantic Code Intelligence** - Building tools for navigating AI-generated codebases through concept-based search
+- **Distributed AI Infrastructure** - Building self-hosted agent frameworks for orchestrating AI workloads across heterogeneous hardware
+- **Semantic Code Intelligence** - Reducing AI assistant token usage by 67% through concept-based code search
 - **Supervisor Multi-agent Systems** - Coordinating specialized AI agents with LangGraph + Neo4j/MongoDB/ChromaDB backends
-- **Self-hosted LLM Infrastructure** - Running private, scalable AI systems on local dedicated hardware
 
 ## Featured Projects
 
-- **[semantic-code](https://github.com/smallthinkingmachines/semantic-code-mcp)** - MCP server for semantic code search using AST-aware chunking and vector embeddings
+- **[harombe](https://github.com/smallthinkingmachines/harombe)** - Self-hosted agent framework for distributed AI workloads across heterogeneous hardware
+- **[semantic-code](https://github.com/smallthinkingmachines/semantic-code-mcp)** - MCP server cutting AI assistant token usage by 67% through AST-aware semantic search
 - **[supervisor-multi-agent-system](https://github.com/Ricoledan/supervisor-multi-agent-system)** - Multi-agent architecture with central supervisor and specialized workers
 - **[bmad-architecture-agent](https://github.com/Ricoledan/bmad-architecture-agent)** - Expert architect toolkit for the BMAD-METHOD framework
 
