@@ -28,13 +28,6 @@ class Ricardo:
 - **Semantic Code Intelligence** - Reducing AI assistant token usage by 67% through concept-based code search
 - **Supervisor Multi-agent Systems** - Coordinating specialized AI agents with LangGraph + Neo4j/MongoDB/ChromaDB backends
 
-## Featured Projects
-
-- **[harombe](https://github.com/smallthinkingmachines/harombe)** - Self-hosted agent framework for distributed AI workloads across heterogeneous hardware
-- **[semantic-code](https://github.com/smallthinkingmachines/semantic-code-mcp)** - MCP server cutting AI assistant token usage by 67% through AST-aware semantic search
-- **[supervisor-multi-agent-system](https://github.com/Ricoledan/supervisor-multi-agent-system)** - Multi-agent architecture with central supervisor and specialized workers
-- **[bmad-architecture-agent](https://github.com/Ricoledan/bmad-architecture-agent)** - Expert architect toolkit for the BMAD-METHOD framework
-
 ## Featured Writing
 
 - [Navigate by Meaning](https://medium.com/@ricardoledan/navigate-by-meaning-5f12910b6955) - How semantic search cuts AI code assistant token usage by 67%
