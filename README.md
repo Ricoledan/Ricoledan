@@ -34,6 +34,10 @@ class Ricardo:
 - [Thinking In Human](https://smallthinkingmachines.substack.com/p/thinking-in-human) - Reclaiming comprehension in an age of AI-generated code
 - [Building Multi-Agent Systems](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - A supervisor architecture deep dive with LangGraph
 
+## Research
+
+- 📄 [The Capability-Container Pattern: Infrastructure-Level Security for Autonomous AI Agents](https://doi.org/10.5281/zenodo.18614503) — Six defense-in-depth layers for securing AI agent tool execution via MCP. Reference implementation: [Harombe](https://github.com/smallthinkingmachines/harombe).
+
 ## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ricardoledan)
