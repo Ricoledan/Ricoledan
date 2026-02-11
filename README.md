@@ -36,7 +36,7 @@ class Ricardo:
 
 ## Research
 
-- 📄 [The Capability-Container Pattern: Infrastructure-Level Security for Autonomous AI Agents](https://doi.org/10.5281/zenodo.18614503) — Six defense-in-depth layers for securing AI agent tool execution via MCP. Reference implementation: [Harombe](https://github.com/smallthinkingmachines/harombe).
+- [The Capability-Container Pattern](https://doi.org/10.5281/zenodo.18614503) - Infrastructure-level security for autonomous AI agents via MCP. Reference implementation: [Harombe](https://github.com/smallthinkingmachines/harombe)
 
 ## Connect
 
