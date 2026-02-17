@@ -53,7 +53,9 @@ class Ricardo:
 
 - [Navigate by Meaning](https://medium.com/@ricardoledan/navigate-by-meaning-5f12910b6955) - Navigating codebases by meaning not text matching
 - [Thinking In Human](https://smallthinkingmachines.substack.com/p/thinking-in-human) - Reclaiming comprehension in an age of AI-generated code
+- [Building AI from the Margins](https://smallthinkingmachines.substack.com/p/building-ai-from-the-margins) - What the shift from scaling toward research means for smaller AI ventures
 - [Building Multi-Agent Systems](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - A supervisor architecture deep dive with LangGraph
+- [The AI Talent Wars](https://ricardoledan.substack.com/p/the-ai-talent-wars-metas-strategic) - Meta's strategic play for AI market control
 - [The Capability-Container Pattern](https://doi.org/10.5281/zenodo.18614503) - Infrastructure-level security for autonomous AI agents via MCP. Reference implementation: [harombe](https://github.com/smallthinkingmachines/harombe)
 
 ## Connect
