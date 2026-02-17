@@ -49,7 +49,7 @@ class Ricardo:
 
 ## Writing & Research
 
-- [Navigate by Meaning](https://medium.com/@ricardoledan/navigate-by-meaning-5f12910b6955) - How semantic search cuts AI code assistant token usage by 67%
+- [Navigate by Meaning](https://medium.com/@ricardoledan/navigate-by-meaning-5f12910b6955) - Navigating codebases by meaning not text matching
 - [Thinking In Human](https://smallthinkingmachines.substack.com/p/thinking-in-human) - Reclaiming comprehension in an age of AI-generated code
 - [Building Multi-Agent Systems](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - A supervisor architecture deep dive with LangGraph
 - [The Capability-Container Pattern](https://doi.org/10.5281/zenodo.18614503) - Infrastructure-level security for autonomous AI agents via MCP. Reference implementation: [harombe](https://github.com/smallthinkingmachines/harombe)
