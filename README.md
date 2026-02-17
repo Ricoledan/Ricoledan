@@ -56,6 +56,7 @@ class Ricardo:
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA%2FROCm-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Qiskit](https://img.shields.io/badge/IBM_Qiskit-6929C4?style=flat-square&logo=ibm&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 ## Current Focus
 
