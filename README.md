@@ -2,18 +2,13 @@
 
 `AI · Blockchain · Quantum`
 
-Full-stack engineer with 10+ years building production systems for Fortune 500 and government clients — specializing in multi-agent architectures, Graph RAG, and quantum computing.
-
 ```python
 class Ricardo:
-    stack = {
-        "AI": ["LangGraph Multi-Agent", "Graph RAG", "Vector Search", "AWS Bedrock"],
-        "Data": ["Neo4j + GDS", "MongoDB", "PostgreSQL", "Graph ML"],
-        "Languages": ["Python", "Rust", "Go", "TypeScript", "Solidity"],
-        "Blockchain": ["Hyperledger Besu", "Smart Contracts", "Web3", "EVM"],
-        "Infra": ["AWS", "Kubernetes", "Docker", "CUDA/ROCm"],
-        "Quantum": ["IBM Qiskit Certified", "VQE/QAOA", "127-qubit"]
-    }
+    currently_building = [
+        "self-hosted agent frameworks for heterogeneous AI workloads",
+        "semantic code search cutting token usage by 67%",
+        "supervisor multi-agent systems with LangGraph + Neo4j"
+    ]
 ```
 
 ![IBM Quantum](https://img.shields.io/badge/IBM_Quantum_Certified-054ADA?style=flat-square&logo=ibm&logoColor=white)
@@ -51,12 +46,6 @@ class Ricardo:
 ![CUDA](https://img.shields.io/badge/CUDA%2FROCm-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Qiskit](https://img.shields.io/badge/IBM_Qiskit-6929C4?style=flat-square&logo=ibm&logoColor=white)
 ![CLI](https://img.shields.io/badge/CLI-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-## Current Focus
-
-- **Distributed AI Infrastructure** - Building self-hosted agent frameworks for orchestrating AI workloads across heterogeneous hardware
-- **Semantic Code Intelligence** - Reducing AI assistant token usage by 67% through concept-based code search
-- **Supervisor Multi-agent Systems** - Coordinating specialized AI agents with LangGraph + Neo4j/MongoDB/ChromaDB backends
 
 ## Writing & Research
 
