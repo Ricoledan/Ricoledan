@@ -11,6 +11,8 @@ class Ricardo:
     ]
 ```
 
+## Certifications
+
 ![IBM Quantum](https://img.shields.io/badge/IBM_Quantum_Certified-054ADA?style=flat-square&logo=ibm&logoColor=white)
 ![NVIDIA](https://img.shields.io/badge/NVIDIA_Supercomputer-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Deloitte Advanced AI](https://img.shields.io/badge/Deloitte_Advanced_AI-86BC25?style=flat-square&logoColor=white)
