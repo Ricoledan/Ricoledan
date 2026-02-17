@@ -1,5 +1,6 @@
 # Yerrr! I'm Ricardo 👋🏾
 
+`AI · Blockchain · Quantum`
 
 I design intelligent systems at the intersection of AI, blockchain, and quantum technologies.
 My work is rooted in systems thinking and driven by cross-domain innovation—transforming complex research into scalable, real-world solutions.
@@ -8,8 +9,6 @@ My work is rooted in systems thinking and driven by cross-domain innovation—tr
 
 ```python
 class Ricardo:
-    """Full-Stack AI Engineer | Multi-Agent Systems | Knowledge Graphs | Quantum Computing"""
-
     stack = {
         "AI": ["LangGraph Multi-Agent", "Graph RAG", "Vector Search", "AWS Bedrock"],
         "Data": ["Neo4j + GDS", "MongoDB", "PostgreSQL", "Graph ML"],
