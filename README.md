@@ -2,10 +2,7 @@
 
 `AI · Blockchain · Quantum`
 
-I design intelligent systems at the intersection of AI, blockchain, and quantum technologies.
-My work is rooted in systems thinking and driven by cross-domain innovation—transforming complex research into scalable, real-world solutions.
-
-## About Me
+Full-stack engineer with 10+ years building production systems for Fortune 500 and government clients — specializing in multi-agent architectures, Graph RAG, and quantum computing.
 
 ```python
 class Ricardo:
@@ -17,8 +14,6 @@ class Ricardo:
         "Infra": ["AWS", "Kubernetes", "Docker", "CUDA/ROCm"],
         "Quantum": ["IBM Qiskit Certified", "VQE/QAOA", "127-qubit"]
     }
-
-    certifications = ["Deloitte AI", "IBM Quantum", "NVIDIA Supercomputer"]
 ```
 
 ![IBM Quantum](https://img.shields.io/badge/IBM_Quantum_Certified-054ADA?style=flat-square&logo=ibm&logoColor=white)
@@ -63,14 +58,11 @@ class Ricardo:
 - **Semantic Code Intelligence** - Reducing AI assistant token usage by 67% through concept-based code search
 - **Supervisor Multi-agent Systems** - Coordinating specialized AI agents with LangGraph + Neo4j/MongoDB/ChromaDB backends
 
-## Featured Writing
+## Writing & Research
 
 - [Navigate by Meaning](https://medium.com/@ricardoledan/navigate-by-meaning-5f12910b6955) - How semantic search cuts AI code assistant token usage by 67%
 - [Thinking In Human](https://smallthinkingmachines.substack.com/p/thinking-in-human) - Reclaiming comprehension in an age of AI-generated code
 - [Building Multi-Agent Systems](https://ricardoledan.substack.com/p/building-multi-agent-systems-a-supervisor) - A supervisor architecture deep dive with LangGraph
-
-## Research
-
 - [The Capability-Container Pattern](https://doi.org/10.5281/zenodo.18614503) - Infrastructure-level security for autonomous AI agents via MCP. Reference implementation: [harombe](https://github.com/smallthinkingmachines/harombe)
 
 ## Connect
