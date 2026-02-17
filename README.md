@@ -25,8 +25,6 @@ class Ricardo:
 ![IBM Quantum](https://img.shields.io/badge/IBM_Quantum_Certified-054ADA?style=flat-square&logo=ibm&logoColor=white)
 ![NVIDIA](https://img.shields.io/badge/NVIDIA_Supercomputer-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Deloitte Advanced AI](https://img.shields.io/badge/Deloitte_Advanced_AI-86BC25?style=flat-square&logoColor=white)
-![Deloitte AI Academy](https://img.shields.io/badge/Deloitte_AI_Academy_XP-86BC25?style=flat-square&logoColor=white)
-![Deloitte ML Foundation](https://img.shields.io/badge/Deloitte_ML_Foundation-86BC25?style=flat-square&logoColor=white)
 
 ## Tech Stack
 
@@ -74,11 +72,6 @@ class Ricardo:
 ## Research
 
 - [The Capability-Container Pattern](https://doi.org/10.5281/zenodo.18614503) - Infrastructure-level security for autonomous AI agents via MCP. Reference implementation: [harombe](https://github.com/smallthinkingmachines/harombe)
-
-## GitHub Stats
-
-![Ricardo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ricoledan&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ricoledan&layout=compact&theme=dark&hide_border=true)
 
 ## Connect
 
