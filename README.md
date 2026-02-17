@@ -6,7 +6,7 @@
 class Ricardo:
     currently_building = [
         "self-hosted agent frameworks for heterogeneous AI workloads",
-        "semantic code search cutting token usage by 67%",
+        "semantic code search — finds code by concept not keywords",
         "supervisor multi-agent systems with LangGraph + Neo4j"
     ]
 ```
