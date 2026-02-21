@@ -4,9 +4,9 @@
 
 ## Current Projects
 
-**[Harombe](https://harombe.com/)** - Self-hosted agent framework that orchestrates autonomous AI agents across your own hardware without cloud dependencies. Run distributed AI workloads with container-isolated security and persistent memory.
+**[harombe](https://harombe.com/)** - Self-hosted agent framework that orchestrates autonomous AI agents across your own hardware without cloud dependencies. Run distributed AI workloads with container-isolated security and persistent memory.
 
-**[MumbleRap.ai](https://mumblerap.ai/)** - AI-powered coaching platform for rappers featuring real-time flow analysis, beat-synced practice sessions, and competitive battle arenas with AI judges.
+**[mumblerap.ai](https://mumblerap.ai/)** - AI-powered coaching platform for rappers featuring real-time flow analysis, beat-synced practice sessions, and competitive battle arenas with AI judges.
 
 ## Certifications
 
