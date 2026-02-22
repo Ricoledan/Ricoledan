@@ -4,6 +4,8 @@
 
 ## Current Projects
 
+**[rasin.ai](http://rasin.ai/)** - AI-powered research platform preserving and democratizing access to primary sources on Haitian history. Features semantic search across 150,000+ documents in 4 languages with knowledge graph linking 20,000+ historical entities.
+
 **[harombe](https://harombe.com/)** - Self-hosted agent framework that orchestrates autonomous AI agents across your own hardware without cloud dependencies. Run distributed AI workloads with container-isolated security and persistent memory.
 
 **[mumblerap.ai](https://mumblerap.ai/)** - AI-powered coaching platform for rappers featuring real-time flow analysis, beat-synced practice sessions, and competitive battle arenas with AI judges.
