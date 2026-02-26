@@ -4,7 +4,7 @@
 
 ## Current Projects
 
-**[rasin](http://rasin.ai/)** - AI-powered research platform preserving and democratizing access to primary sources on Haitian history. Features semantic search across 150,000+ documents in 4 languages with knowledge graph linking 20,000+ historical entities.
+**[rasin.ai](http://rasin.ai/)** - AI-powered research platform preserving and democratizing access to primary sources on Haitian history. Features semantic search across 150,000+ documents in 4 languages with knowledge graph linking 20,000+ historical entities.
 
 **[harombe](https://harombe.com/)** - Self-hosted agent framework that orchestrates autonomous AI agents across your own hardware without cloud dependencies. Run distributed AI workloads with container-isolated security and persistent memory.
 
