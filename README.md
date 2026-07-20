@@ -1,35 +1,39 @@
 # Ricardo Ledan
 
-AI systems engineer and independent researcher working on sovereign AI infrastructure, multilingual retrieval, and archival intelligence.
+AI systems engineer and independent researcher. I build retrieval and
+knowledge systems for multilingual archives, with an emphasis on
+provenance and self-hostable infrastructure.
 
 ## Research Interests
 
-- Sovereign AI Infrastructure
-- Archival Intelligence & Multilingual Retrieval
-- GraphRAG and Provenance-Aware Retrieval Systems
-- Agentic Orchestration & Isolated Execution
-- Knowledge Graphs and Memory Systems
-- AI and Cultural Infrastructure
+- Archival intelligence and multilingual retrieval
+- GraphRAG and provenance-aware retrieval systems
+- Agentic orchestration and isolated execution
+- Knowledge graphs and memory systems
+- AI for cultural heritage and digital archives
 
 ## Current Work
 
-**[rasin.ai](http://rasin.ai/)** — Sovereign archival intelligence platform for Haitian historical corpora. Multilingual GraphRAG, provenance-aware retrieval, and knowledge-graph exploration over primary sources and archives.
+**[rasin.ai](https://rasin.ai/)** — an open research platform for Haitian
+historical corpora. It combines multilingual GraphRAG with provenance-aware
+retrieval so every answer stays traceable to the primary sources behind it.
 
 ## Writing & Research
 
-- [The Capability-Container Pattern](https://doi.org/10.5281/zenodo.18614503) — Infrastructure-level security for autonomous AI agents via MCP.
-- [Navigate by Meaning](https://medium.com/@ricardoledan/navigate-by-meaning-5f12910b6955) — Navigating codebases by meaning, not text matching.
-- [Thinking In Human](https://smallthinkingmachines.substack.com/p/thinking-in-human) — Reclaiming comprehension in an age of AI-generated code.
+- [The Capability-Container Pattern](https://doi.org/10.5281/zenodo.18614503) — container-level isolation for securing autonomous agents' MCP tooling.
+- [Navigate by Meaning](https://medium.com/@ricoledan/navigate-by-meaning-5f12910b6955) — using semantic search to explore codebases where text matching falls short.
+- [Thinking In Human](https://smallthinkingmachines.substack.com/p/thinking-in-human) — keeping human comprehension central as codebases fill with AI-generated code.
 
 ## Certifications
 
-![IBM Quantum](https://img.shields.io/badge/IBM_Quantum_Certified-054ADA?style=flat-square&logo=ibm&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA_Supercomputer-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Deloitte Advanced AI](https://img.shields.io/badge/Deloitte_Advanced_AI-86BC25?style=flat-square&logoColor=white)
+[![IBM Qiskit Quantum Excellence](https://img.shields.io/badge/IBM_Qiskit_Quantum_Excellence-054ADA?style=flat-square)](https://www.credly.com/badges/06a41ad5-68e6-488a-852e-38b28c6a744f/public_url)
+![NVIDIA](https://img.shields.io/badge/NVIDIA_AI_Supercomputer_Certified-76B900?style=flat-square&logo=nvidia&logoColor=white)
+[![Deloitte Machine Learning](https://img.shields.io/badge/Deloitte_Machine_Learning-86BC25?style=flat-square&logoColor=white)](https://www.credly.com/badges/9437a59b-ea41-4a11-b2a9-6c4aa745c221/public_url)
+[![Deloitte Data Engineering](https://img.shields.io/badge/Deloitte_Data_Engineering-86BC25?style=flat-square&logoColor=white)](https://www.credly.com/badges/c237696b-5692-4256-b897-cdb140c2c7dd/public_url)
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ricardoledan)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/ricardoledan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square)](https://linkedin.com/in/ricardoledan)
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/ricardoledan)
 [![smallthinkingmachines](https://img.shields.io/badge/smallthinkingmachines-FF6719?style=flat-square&logo=substack&logoColor=white)](https://smallthinkingmachines.substack.com/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ricardoledan+github@proton.me)
+[![Email](https://img.shields.io/badge/Email-6D4AFF?style=flat-square&logo=protonmail&logoColor=white)](mailto:ricardoledan+github@proton.me)
