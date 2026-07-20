@@ -35,5 +35,4 @@ retrieval so every answer stays traceable to the primary sources behind it.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square)](https://linkedin.com/in/ricardoledan)
 [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/ricardoledan)
-[![smallthinkingmachines](https://img.shields.io/badge/smallthinkingmachines-FF6719?style=flat-square&logo=substack&logoColor=white)](https://smallthinkingmachines.substack.com/)
 [![Email](https://img.shields.io/badge/Email-6D4AFF?style=flat-square&logo=protonmail&logoColor=white)](mailto:ricardoledan+github@proton.me)
