@@ -20,7 +20,7 @@ retrieval so every answer stays traceable to the primary sources behind it.
 
 **[maxslomo](https://maxslomo.ai/)** — an interactive audio app for reshaping
 music in the browser, combining real-time speed, reverb, and tone controls
-with stem-level mixing and audio-reactive WebGL visuals. Currently in beta.
+with stem-level mixing and audio-reactive WebGL visuals.
 
 ## Writing & Research
 
