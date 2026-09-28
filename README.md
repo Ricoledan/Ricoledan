@@ -18,6 +18,10 @@ provenance and self-hostable infrastructure.
 historical corpora. It combines multilingual GraphRAG with provenance-aware
 retrieval so every answer stays traceable to the primary sources behind it.
 
+**[maxslomo](https://maxslomo.ai/)** — an interactive audio app for reshaping
+music in the browser, combining real-time speed, reverb, and tone controls
+with stem-level mixing and audio-reactive WebGL visuals. Currently in beta.
+
 ## Writing & Research
 
 - [The Capability-Container Pattern](https://doi.org/10.5281/zenodo.18614503) — container-level isolation for securing autonomous agents' MCP tooling.
@@ -36,3 +40,4 @@ retrieval so every answer stays traceable to the primary sources behind it.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square)](https://linkedin.com/in/ricardoledan)
 [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/ricardoledan)
 [![Email](https://img.shields.io/badge/Email-6D4AFF?style=flat-square&logo=protonmail&logoColor=white)](mailto:ricardoledan+github@proton.me)
+
