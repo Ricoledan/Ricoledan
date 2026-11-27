@@ -24,6 +24,6 @@ Video search and inspection for AI tools, using timestamped transcripts, keyfram
 - [Navigate by Meaning](https://medium.com/@ricoledan/navigate-by-meaning-5f12910b6955) — semantic search for exploring codebases.
 - [Thinking In Human](https://smallthinkingmachines.substack.com/p/thinking-in-human) — human comprehension and the growing volume of AI-generated code.
 
-## Elsewhere
+## Connect
 
-[Website](https://ledan.ai/) · [LinkedIn](https://linkedin.com/in/ricardoledan) · [Bluesky](https://bsky.app/profile/ricardoledan.bsky.social) · [ORCID](https://orcid.org/0009-0004-3041-7656) · [Email](mailto:ricardoledan+github@proton.me)
+[LinkedIn](https://linkedin.com/in/ricardoledan) · [Bluesky](https://bsky.app/profile/ricardoledan.bsky.social)
